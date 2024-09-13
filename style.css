@@ -14,10 +14,11 @@
     justify-content: center;
     gap: 2rem;
 }
-.welcome h1{
+.welcome span{
     margin-top: -15rem;
     font-size:5rem;
     color: rgb(51, 12, 12);
+    text-align: center;
 }
 .welcome h3{
     font-size: 4rem;
@@ -151,7 +152,7 @@ nav ul{
 }
 @media screen and (max-width: 768px)
 {
-    h1{
+    .welcome span{
         font-size: 2rem;
     }
     
