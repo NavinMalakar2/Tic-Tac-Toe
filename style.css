@@ -149,3 +149,10 @@ nav ul{
         grid-template-columns: repeat(3, 20vw);
     }
 }
+@media screen and (max-width: 768px)
+{
+    h1{
+        font-size: 2rem;
+    }
+    
+}
